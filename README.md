@@ -15,6 +15,6 @@ cat kerberoast.txt | grep Hash -A 42 | sed 's/\[\*\]\ Hash//g' | sed s/://g | se
 ```
 
 # Note
-- You must adjust the 'grep Hash -A 42' to capture the full hash
-- View README.md in 'raw' format to copy paste or you will get weird format errors.
+- You must adjust the ```bash grep Hash -A 42``` to capture the full hash
+- View README.md in 'Raw' format to copy paste or you will get weird format errors.
 - Tested with utilities on Debian Linux, MacOS breaks all this stuff :p
